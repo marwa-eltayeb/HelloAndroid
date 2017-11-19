@@ -18,8 +18,11 @@
         android:src="@drawable/udacity" />
 
     <!-- Information about the company -->
+
     <TextView
+        android:id="@+id/textView"
         style="@style/text"
+        android:layout_width="match_parent"
         android:text="@string/name"
         android:textColor="@color/companyTextColor"
         android:textStyle="bold|italic" />
@@ -37,12 +40,10 @@
         android:autoLink="phone"
         android:text="@string/phone" />
 
-
     <TextView
         style="@style/text"
         android:autoLink="web"
-        android:text="@string/site"
-        android:textColorLink="@color/webTextColor" />
+        android:text="@string/site" />
 
 
 </LinearLayout>
