@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#037b00</color>
+    <color name="colorPrimaryDark">#0d3409</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <!-- Color of the company name -->
+    <color name="companyTextColor">#c60059</color>
+
+    <!-- Color for the rest of the items -->
+    <color name="text_color">#ccc</color>
+
+    <!-- Color of the website-->
+    <color name="webTextColor">#19abd2</color>
+
+
+</resources>

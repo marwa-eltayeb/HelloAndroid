@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context="com.example.marwa.helloandroid.MainActivity">
+
+    <!-- Background of the Business Card -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:contentDescription="@string/business_card"
+        android:scaleType="fitXY"
+        android:src="@drawable/udacity" />
+
+    <!-- Information about the company -->
+    <TextView
+        style="@style/text"
+        android:text="@string/name"
+        android:textColor="@color/companyTextColor"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        style="@style/text"
+        android:text="@string/address" />
+
+    <TextView
+        style="@style/text"
+        android:text="@string/city" />
+
+    <TextView
+        style="@style/text"
+        android:autoLink="phone"
+        android:text="@string/phone" />
+
+
+    <TextView
+        style="@style/text"
+        android:autoLink="web"
+        android:text="@string/site"
+        android:textColorLink="@color/webTextColor" />
+
+
+</LinearLayout>
+
