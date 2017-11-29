@@ -12,7 +12,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="5"
+        android:layout_weight="4"
         android:contentDescription="@string/business_card"
         android:scaleType="fitXY"
         android:src="@drawable/udacity" />
@@ -20,29 +20,35 @@
     <!-- Information about the company -->
 
     <TextView
-        android:id="@+id/textView"
-        style="@style/text"
         android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.9"
+        android:fontFamily="serif"
+        android:gravity="center"
         android:text="@string/name"
         android:textColor="@color/companyTextColor"
-        android:textStyle="bold|italic" />
+        android:textSize="@dimen/textSizeName"
+        android:textStyle="bold|italic"
+        tools:targetApi="jelly_bean" />
 
     <TextView
         style="@style/text"
+        android:layout_weight="1.9"
+        android:drawableLeft="@drawable/map"
         android:text="@string/address" />
 
-    <TextView
-        style="@style/text"
-        android:text="@string/city" />
 
     <TextView
         style="@style/text"
         android:autoLink="phone"
+        android:drawableLeft="@drawable/phone"
         android:text="@string/phone" />
 
     <TextView
         style="@style/text"
+        android:layout_marginBottom="5dp"
         android:autoLink="web"
+        android:drawableLeft="@drawable/web"
         android:text="@string/site" />
 
 
