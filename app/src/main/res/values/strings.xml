@@ -1,14 +1,12 @@
 <resources>
     <!-- Name of the app -->
     <string name="app_name">HelloAndroid</string>
-    <!-- Phone number of the company -->
-    <string name="phone">650-555-5555</string>
-    <!-- Address of the company -->
-    <string name="address">2465 Latham St</string>
-    <!-- Location of the company -->
-    <string name="city">Mountain View, CA 94043</string>
     <!-- Name of the company -->
     <string name="name">Udacity</string>
+    <!-- Address of the company -->
+    <string name="address">2465 Latham St,\nMountain View, CA 94043</string>
+    <!-- Phone number of the company -->
+    <string name="phone">650-555-5555</string>
     <!-- Website of the company -->
     <string name="site">www.udacity.com</string>
     <!-- Description of the image -->

@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <!-- Text Size for Name -->
+    <dimen name="textSizeName">30sp</dimen>
+
     <!-- Text Size -->
-    <dimen name="text_size">18sp</dimen>
+    <dimen name="textSize">18sp</dimen>
 
     <!-- Text padding -->
-    <dimen name="padding_left">16dp</dimen>
+    <dimen name="paddingLeft">16dp</dimen>
+
+    <dimen name="bottom">5dp</dimen>
 
 </resources>
