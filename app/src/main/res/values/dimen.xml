@@ -10,6 +10,7 @@
     <!-- Text padding -->
     <dimen name="paddingLeft">16dp</dimen>
 
+    <!-- Margin Bottom for website -->
     <dimen name="bottom">5dp</dimen>
 
 </resources>
