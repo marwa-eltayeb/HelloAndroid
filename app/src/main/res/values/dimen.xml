@@ -13,4 +13,7 @@
     <!-- Margin Bottom for website -->
     <dimen name="bottom">5dp</dimen>
 
+    <!-- drawablePadding -->
+    <dimen name="drawablePadding">10dp</dimen>
+
 </resources>
