@@ -36,6 +36,7 @@
         android:layout_weight="1.9"
         android:autoLink="map"
         android:drawableLeft="@drawable/map"
+        android:drawableStart="@drawable/map"
         android:text="@string/address" />
 
 
@@ -43,6 +44,7 @@
         style="@style/text"
         android:autoLink="phone"
         android:drawableLeft="@drawable/phone"
+        android:drawableStart="@drawable/phone"
         android:text="@string/phone" />
 
     <TextView
@@ -50,6 +52,7 @@
         android:layout_marginBottom="@dimen/bottom"
         android:autoLink="web"
         android:drawableLeft="@drawable/web"
+        android:drawableStart="@drawable/web"
         android:text="@string/site" />
 
 
