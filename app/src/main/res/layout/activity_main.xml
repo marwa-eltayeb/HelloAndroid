@@ -1,59 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/colorPrimaryDark"
-    android:orientation="vertical"
-    android:weightSum="10"
-    tools:context="com.example.marwa.helloandroid.MainActivity">
+    android:layout_height="match_parent">
 
-    <!-- Background of the Business Card -->
-    <ImageView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="4"
-        android:contentDescription="@string/business_card"
-        android:scaleType="fitXY"
-        android:src="@drawable/udacity" />
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:orientation="vertical"
+        android:weightSum="10"
+        tools:context="com.example.marwa.helloandroid.MainActivity">
 
-    <!-- Information about the company -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1.9"
-        android:fontFamily="serif"
-        android:gravity="center"
-        android:text="@string/name"
-        android:textColor="@color/companyTextColor"
-        android:textSize="@dimen/textSizeName"
-        android:textStyle="bold|italic"
-        tools:targetApi="jelly_bean" />
+        <!-- Background of the Business Card -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:contentDescription="@string/business_card"
+            android:scaleType="fitXY"
+            android:src="@drawable/udacity" />
 
-    <TextView
-        style="@style/text"
-        android:layout_weight="1.9"
-        android:autoLink="map"
-        android:drawableLeft="@drawable/map"
-        android:drawableStart="@drawable/map"
-        android:text="@string/address" />
+        <!-- Information about the company -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.9"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:text="@string/name"
+            android:textColor="@color/companyTextColor"
+            android:textSize="@dimen/textSizeName"
+            android:textStyle="bold|italic"
+            tools:targetApi="jelly_bean" />
 
-
-    <TextView
-        style="@style/text"
-        android:autoLink="phone"
-        android:drawableLeft="@drawable/phone"
-        android:drawableStart="@drawable/phone"
-        android:text="@string/phone" />
-
-    <TextView
-        style="@style/text"
-        android:layout_marginBottom="@dimen/bottom"
-        android:autoLink="web"
-        android:drawableLeft="@drawable/web"
-        android:drawableStart="@drawable/web"
-        android:text="@string/site" />
+        <TextView
+            style="@style/text"
+            android:layout_weight="1.9"
+            android:autoLink="map"
+            android:drawableLeft="@drawable/map"
+            android:drawableStart="@drawable/map"
+            android:text="@string/address" />
 
 
-</LinearLayout>
+        <TextView
+            style="@style/text"
+            android:autoLink="phone"
+            android:drawableLeft="@drawable/phone"
+            android:drawableStart="@drawable/phone"
+            android:text="@string/phone" />
+
+        <TextView
+            style="@style/text"
+            android:layout_marginBottom="@dimen/bottom"
+            android:autoLink="web"
+            android:drawableLeft="@drawable/web"
+            android:drawableStart="@drawable/web"
+            android:text="@string/site" />
+
+
+    </LinearLayout>
+</ScrollView>
+
 
